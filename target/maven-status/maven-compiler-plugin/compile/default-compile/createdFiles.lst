@@ -1,0 +1,12 @@
+com\sda\practical\databases\AuthorRepository.class
+com\sda\practical\databases\HibernateUtils.class
+com\sda\practical\services\BaseService.class
+com\sda\practical\views\MainViewHandler.class
+com\sda\practical\views\MenuHandler.class
+com\sda\practical\databases\BookRepository.class
+com\sda\practical\databases\BookEntity.class
+com\sda\practical\utils\LoggerUtils.class
+com\sda\practical\services\AuthorService.class
+com\sda\practical\services\BookService.class
+com\sda\practical\App.class
+com\sda\practical\databases\AuthorEntity.class
