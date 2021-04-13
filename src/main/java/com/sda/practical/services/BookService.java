@@ -68,9 +68,10 @@ public class BookService extends BaseService{
     }
 
     public void updateBook(Scanner scanner, BookRepository bookRepository) {
-        LoggerUtils.print("Enter book id");
+        LoggerUtils.print("Select the book you wish to update from the list, using the id");
+        displayAllBooksWithAuthors();
         Integer id = Integer.parseInt(scanner.nextLine());
-        LoggerUtils.print("Enter book title");
+        LoggerUtils.print("Enter the new book title:");
         String bookTitle = scanner.nextLine();
         BookEntity bookEntity = new BookEntity();
         bookEntity.setBookId(id);
