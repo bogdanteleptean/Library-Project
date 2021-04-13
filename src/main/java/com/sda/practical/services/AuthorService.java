@@ -23,7 +23,7 @@ public class AuthorService extends BaseService {
     }
 
     public void updateAuthor(Scanner scanner, AuthorRepository authorRepository) {
-        LoggerUtils.print("Select the author you wish to update from the list, by id");
+        LoggerUtils.print("Select the author you wish to update from the list, using the id");
         AuthorRepository.getAllAuthors().stream().forEach(System.out::println);
         Integer id = Integer.parseInt(scanner.nextLine());
         LoggerUtils.print("Enter author's new first name");
